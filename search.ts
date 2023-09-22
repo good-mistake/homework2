@@ -1,6 +1,6 @@
 function search(x: string) {
-  let firstName: string[] = ["first"];
-  for (let i = 0; i < firstName.length; i++) {
+  let firstName: string[] = [];
+  for (let i = 0; i <= firstName.length; i++) {
     let userName: string = prompt(`Enter your name:`) as string;
     firstName.push(userName);
     if (firstName.length % 5 === 0) {
